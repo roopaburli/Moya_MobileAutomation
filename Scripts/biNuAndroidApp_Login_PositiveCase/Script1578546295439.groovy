@@ -17,15 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.txtAppApkPath, true)
 
-Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - ENV Dropdown'), 0)
-
+//Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - ENV Dropdown',[('production') : production]), 0)
+/*
 Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - PRODUCTION - Option'), 0)
 
-Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.EditText0 - biNuAppId'), GlobalVariable.txtGoalAppId, 
-    0)
+Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.EditText0 - biNuAppId'), appId, 0)
 
-Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - StartURL'), GlobalVariable.txtAppStartUrl, 
-    0)
+Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - StartURL'), appURL, 0)
 
-Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.Button0 - START'), 0)
+Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.Button0 - START'), 0*/
+
+CustomKeywords.'common.Common_lib.logInMainApp'(Env, appId, appURL)
 

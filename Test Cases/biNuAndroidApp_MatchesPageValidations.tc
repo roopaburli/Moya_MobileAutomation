@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>11b49776-8c0a-4024-ad01-7f48950315fd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d356547d-aa61-4dfc-8a1e-249e24cefd16</id>
+      <masked>false</masked>
+      <name>appId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91980c8c-5da2-4947-91b9-7a0022824b7f</id>
+      <masked>false</masked>
+      <name>appUrl</name>
+   </variable>
 </TestCaseEntity>

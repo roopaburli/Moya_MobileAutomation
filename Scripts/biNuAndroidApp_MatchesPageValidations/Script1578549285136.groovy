@@ -21,14 +21,15 @@ Mobile.tap(findTestObject('biNu_AndroidApp_MatchesPage/android.widget.TextView0 
 
 Mobile.tap(findTestObject('biNu_AndroidApp_MatchesPage/android.widget.TextView0 - PRODUCTION (1)'), 0)
 
-Mobile.setText(findTestObject('biNu_AndroidApp_MatchesPage/android.widget.EditText0 - 1472'), '869', 0)
+Mobile.setText(findTestObject('biNu_AndroidApp_MatchesPage/android.widget.EditText0 - 1472'), String appId, 0)
 
 Mobile.setText(findTestObject('biNu_AndroidApp_MatchesPage/android.widget.EditText0 - httpbinuhosting.bi.nucontentprod34_1472_598binuappnode.xml'), 
-    'http://binuhosting.bi.nu/content/prod/1344_869_493/binuappnode.xml', 0)
+    String url, 0)
 
 Mobile.tap(findTestObject('biNu_AndroidApp_MatchesPage/android.widget.Button0 - START'), 0)
 
 Mobile.getText(findTestObject('biNu_AndroidApp_MatchesPage/android.widget.TextView0 - Matches'), 0)
+
 
 Mobile.tap(findTestObject('biNu_AndroidApp_MatchesPage/android.widget.ImageView0_MoreOptions'), 0)
 

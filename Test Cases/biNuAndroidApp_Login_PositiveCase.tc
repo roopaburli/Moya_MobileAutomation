@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1e809832-34e8-4504-9fc7-0c054a5917c9</testCaseGuid>
+   <variable>
+      <defaultValue>'PRODUCTION'</defaultValue>
+      <description></description>
+      <id>7782f435-d02a-4bec-8c7f-7f16a88e0f98</id>
+      <masked>false</masked>
+      <name>Env</name>
+   </variable>
+   <variable>
+      <defaultValue>'869'</defaultValue>
+      <description></description>
+      <id>6bbb0118-72f2-4635-bace-74f24c394c2c</id>
+      <masked>false</masked>
+      <name>appId</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://binuhosting.bi.nu/content/prod/1344_869_493/binuappnode.xml'</defaultValue>
+      <description></description>
+      <id>ca934adb-0423-4a4d-8b0e-5b7cf9966a41</id>
+      <masked>false</masked>
+      <name>appURL</name>
+   </variable>
 </TestCaseEntity>
