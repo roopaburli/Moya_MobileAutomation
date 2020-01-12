@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Krishna Choudhary\\ApkProjects\\nu.bi.binuapp-1.0.3-15-[undefined]-videoAds-debug.apk'</initValue>
+      <name>txtAppApkPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PRODUCTION'</initValue>
+      <name>txtEnvProd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'869'</initValue>
+      <name>txtGoalAppId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://binuhosting.bi.nu/content/prod/1344_869_493/binuappnode.xml'</initValue>
+      <name>txtAppStartUrl</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
