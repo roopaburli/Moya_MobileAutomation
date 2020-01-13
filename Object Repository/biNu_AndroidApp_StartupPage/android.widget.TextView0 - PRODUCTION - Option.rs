@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and (text() = 'PRODUCTION' or . = 'PRODUCTION') and @resource-id = 'android:id/text1']</value>
+         <value>//*[@class = 'android.widget.TextView' and (text() = '${env}' or . = '${env}') and @resource-id = 'android:id/text1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>PRODUCTION</value>
+      <value>${env}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

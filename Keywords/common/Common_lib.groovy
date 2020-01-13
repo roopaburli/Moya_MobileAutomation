@@ -78,9 +78,13 @@ public class Common_lib {
 	@Keyword
 	def logInMainApp(String envType, String appId, String appURL){
 
-		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - ENV Dropdown',[('production') : envType]), 0)
+		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - ENV Dropdown'), 0)
 
-		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - PRODUCTION - Option'), 0)
+		//Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - ENV Dropdown', [('env') : envType]), 0)
+
+		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - PRODUCTION - Option', [('env') : envType]), 5)
+
+		//Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - PRODUCTION - Option'), 0)
 
 		Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.EditText0 - biNuAppId'), appId, 0)
 
@@ -88,4 +92,14 @@ public class Common_lib {
 
 		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.Button0 - START'), 0)
 	}
+
+	@Keyword
+	def homePageVerification(){
+		
+		def homePageHeader = Mobile.getText(findTestObject('biNu_GoalApp_HomePage/android.widget.TextView0 - Showing 7 days'),10)
+		assert homePageHeader.contains('Showing 7 days fixtures for all popular competitions') :'Header 1 mismatch!'
+		assert homePageHeader.contains('favourite competitions') :'Header 2 mismatch!'
+		
+	}
+	
 }

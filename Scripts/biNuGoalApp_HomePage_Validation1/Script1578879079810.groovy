@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(GlobalVariable.txtAppApkPath, true)
+CustomKeywords.'common.Common_lib.homePageVerification'()
 
-CustomKeywords.'common.Common_lib.logInMainApp'(envType, appId, appURL)
+
+
 

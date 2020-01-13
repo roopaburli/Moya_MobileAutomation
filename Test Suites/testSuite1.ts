@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>testSuite1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e4477a1c-86ae-4643-8df4-7933062a60ee</testSuiteGuid>
+   <testCaseLink>
+      <guid>8f55814c-2def-4058-8f15-cd873254c0cf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/biNuAndroidApp_Login_PositiveCase</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7782f435-d02a-4bec-8c7f-7f16a88e0f98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6bbb0118-72f2-4635-bace-74f24c394c2c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ca934adb-0423-4a4d-8b0e-5b7cf9966a41</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dff22f39-bc6b-429b-b568-dbe5f9de79ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/biNuGoalApp_HomePage_Validation1</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

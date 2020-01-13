@@ -10,7 +10,7 @@
       <description></description>
       <id>7782f435-d02a-4bec-8c7f-7f16a88e0f98</id>
       <masked>false</masked>
-      <name>Env</name>
+      <name>envType</name>
    </variable>
    <variable>
       <defaultValue>'869'</defaultValue>

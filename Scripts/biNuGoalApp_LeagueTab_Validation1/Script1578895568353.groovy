@@ -15,7 +15,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(GlobalVariable.txtAppApkPath, true)
 
-CustomKeywords.'common.Common_lib.logInMainApp'(envType, appId, appURL)
+Mobile.tap(findTestObject('biNu_GoalApp_LeagueTab/android.widget.ImageView0'), 0)
+
+Mobile.scrollToText('England - Premier League')
+
+Mobile.tap(findTestObject('biNu_GoalApp_LeagueTab/android.widget.TextView0 - England - Premier League'), 0)
+
+Mobile.swipe(200, 300, 400, 600)
+
+Mobile.tap(findTestObject('biNu_GoalApp_LeagueTab/android.widget.TextView0 - Liverpool'), 0)
+
+Mobile.scrollToText('Stats')
+
+
 
