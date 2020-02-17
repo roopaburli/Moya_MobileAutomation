@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>header1dave.masters.dev0.binu.netText</name>
+   <tag></tag>
+   <elementGuidId>a79221dd-e7d8-469e-bd57-dc8010492e23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(text(),'dave.masters.dev0.binu.net')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(text(),'dave.masters.dev0.binu.net')]</value>
+   </webElementProperties>
+</WebElementEntity>

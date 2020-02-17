@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textCONNECTED</name>
+   <tag></tag>
+   <elementGuidId>67ba0a8a-a287-47a9-8f4e-8d682caa2b74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]//div[1]//p[contains(text(),'CONNECTED')][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[2]//div[1]//p[contains(text(),'CONNECTED')][1]</value>
+   </webElementProperties>
+</WebElementEntity>

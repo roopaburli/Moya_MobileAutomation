@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>header1AccessControlAllowOrigin</name>
+   <tag></tag>
+   <elementGuidId>4b492694-184b-4cd6-a4d6-49ebfbdba7d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/div[@class='container-fluid']/div[@id='accordion']/div[@class='card']/div[@id='collapseHeaderRules']/div[@id='headerrules']/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/div[@class='container-fluid']/div[@id='accordion']/div[@class='card']/div[@id='collapseHeaderRules']/div[@id='headerrules']/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

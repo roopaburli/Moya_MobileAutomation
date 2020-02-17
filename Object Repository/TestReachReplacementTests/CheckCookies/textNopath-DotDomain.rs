@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textNopath-DotDomain</name>
+   <tag></tag>
+   <elementGuidId>fe9cca22-86ac-473a-84e5-fd7b336e3f6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='col-md-7'][contains(text(),'NOPATH-DOTDOMAIN')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='col-md-7'][contains(text(),'NOPATH-DOTDOMAIN')]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestBed_MaxApp_EndToEndTest1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d700b89-479f-4a4a-b747-ac614a7285bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e354b82d-ea55-493c-94c5-286fa1492a3b</id>
+      <masked>false</masked>
+      <name>TestCaseId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c85c2ba7-b812-435d-89a6-e9997ba25c5d</id>
+      <masked>false</masked>
+      <name>TestCaseType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2a1d6682-08af-4b29-ac04-a0a34709d336</id>
+      <masked>false</masked>
+      <name>TestCaseKey</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2123aa0d-099d-4c67-b3c5-9eef9f2b6dcc</id>
+      <masked>false</masked>
+      <name>TestCaseValue</name>
+   </variable>
+</TestCaseEntity>

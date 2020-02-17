@@ -78,7 +78,7 @@ public class Common_lib {
 	@Keyword
 	def logInMainApp(String envType, String appId, String appURL){
 
-		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - ENV Dropdown'), 0)
+		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - ENV Dropdown'), 5)
 
 		//Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - ENV Dropdown', [('env') : envType]), 0)
 
@@ -86,20 +86,46 @@ public class Common_lib {
 
 		//Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - PRODUCTION - Option'), 0)
 
-		Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.EditText0 - biNuAppId'), appId, 0)
+		Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.EditText0 - biNuAppId'), appId, 5)
 
-		Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - StartURL'), appURL, 0)
+		Mobile.setText(findTestObject('biNu_AndroidApp_StartupPage/android.widget.TextView0 - StartURL'), appURL, 5)
 
-		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.Button0 - START'), 0)
+		Mobile.tap(findTestObject('biNu_AndroidApp_StartupPage/android.widget.Button0 - START'), 5)
+		
+		Mobile.delay(60)
+		
+		/*def isGoalHomePageDisp = CustomKeywords.'common.Common_lib.isElementPresent_Mobile'(findTestObject('biNu_GoalApp_HomePage/android.widget.TextView0 - Showing 7 days fixtures - full text', 5))
+
+		if (isGoalHomePageDisp == true)
+		{
+			KeywordUtil.markPassed(envType + " : " + appId + " : " + appURL + " : " + "Login Successful")
+		}
+		else
+		{
+			KeywordUtil.markFailedAndStop(envType + " : " + appId + " : " + appURL + " : " + "Login Failed")
+		}*/
+
 	}
 
 	@Keyword
-	def homePageVerification(){
+	def biNu_MultiApps_homePageVerification(){
 		
-		def homePageHeader = Mobile.getText(findTestObject('biNu_GoalApp_HomePage/android.widget.TextView0 - Showing 7 days'),10)
-		assert homePageHeader.contains('Showing 7 days fixtures for all popular competitions') :'Header 1 mismatch!'
-		assert homePageHeader.contains('favourite competitions') :'Header 2 mismatch!'
+		println "inside home page"
+
+		
+		
+		/*println isHomePageTextDisp
+		
+		if (isHomePageTextDisp == true){
+			
+			KeywordUtil.markPassed("Home page validation is Successful")
+			
+		}
+		else
+		{
+			KeywordUtil.markFailedAndStop("Home page validation is Failed")
+			
+		}*/
 		
 	}
-	
 }

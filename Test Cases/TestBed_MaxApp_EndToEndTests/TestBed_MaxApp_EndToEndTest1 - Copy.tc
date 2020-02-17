@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestBed_MaxApp_EndToEndTest1 - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c856488-14de-4b0b-82c0-1e2bed714edb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>895d8d45-9b43-468b-a57a-dad0e06966fc</id>
+      <masked>false</masked>
+      <name>TestCaseId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d82cc2dc-ea82-4940-b2cf-bee3cca9d1fc</id>
+      <masked>false</masked>
+      <name>TestCaseType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad577dda-06d9-4e9a-992d-4ecdd6fcdcd1</id>
+      <masked>false</masked>
+      <name>TestCaseKey</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6032f50e-b274-42f9-b7b1-990594e202ea</id>
+      <masked>false</masked>
+      <name>TestCaseValue</name>
+   </variable>
+</TestCaseEntity>

@@ -11,33 +11,42 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>e4477a1c-86ae-4643-8df4-7933062a60ee</testSuiteGuid>
    <testCaseLink>
-      <guid>8f55814c-2def-4058-8f15-cd873254c0cf</guid>
+      <guid>d15ae276-4bd7-4ba9-97b4-97ce75bcf128</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/biNuAndroidApp_Login_PositiveCase</testCaseId>
+      <testCaseId>Test Cases/TestBed_MaxApp_EndToEndTests/TestBed_MaxApp_EndToEndTest1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>992c9085-f3d2-496e-825b-efbc367b19dd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestBed_MaxApp_ExpectedResults</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7782f435-d02a-4bec-8c7f-7f16a88e0f98</variableId>
+         <testDataLinkId>992c9085-f3d2-496e-825b-efbc367b19dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseId</value>
+         <variableId>e354b82d-ea55-493c-94c5-286fa1492a3b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6bbb0118-72f2-4635-bace-74f24c394c2c</variableId>
+         <testDataLinkId>992c9085-f3d2-496e-825b-efbc367b19dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseType</value>
+         <variableId>c85c2ba7-b812-435d-89a6-e9997ba25c5d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ca934adb-0423-4a4d-8b0e-5b7cf9966a41</variableId>
+         <testDataLinkId>992c9085-f3d2-496e-825b-efbc367b19dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseKey</value>
+         <variableId>2a1d6682-08af-4b29-ac04-a0a34709d336</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dff22f39-bc6b-429b-b568-dbe5f9de79ac</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/biNuGoalApp_HomePage_Validation1</testCaseId>
+      <variableLink>
+         <testDataLinkId>992c9085-f3d2-496e-825b-efbc367b19dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseValue</value>
+         <variableId>2123aa0d-099d-4c67-b3c5-9eef9f2b6dcc</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
