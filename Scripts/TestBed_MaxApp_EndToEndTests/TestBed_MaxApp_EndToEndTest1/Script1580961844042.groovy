@@ -171,9 +171,9 @@ for (i = 1; i <= maxRowCount; i++) {
 						
 						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Yorkshire pictures Menu option'), 15)
 						
-						Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Burnsall text'), 10)
+						Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Burnsall text'), 15)
 						
-						if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Burnsall image'), 10, FailureHandling.CONTINUE_ON_FAILURE))
+						if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Burnsall image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 							{
 								KeywordUtil.markPassed("TestCase - Pass - Burnsall image is present!")
 							}
@@ -192,9 +192,9 @@ for (i = 1; i <= maxRowCount; i++) {
 							
 							Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Yorkshire pictures Menu option'), 15)
 							
-							Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Staithes text'), 7)
+							Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Staithes text'), 15)
 							
-							if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Staithes image'), 10, FailureHandling.CONTINUE_ON_FAILURE))
+							if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Staithes image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 								{
 									KeywordUtil.markPassed("TestCase - Pass - Staithes image is present!")
 								}
@@ -212,9 +212,9 @@ for (i = 1; i <= maxRowCount; i++) {
 							
 							Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Yorkshire pictures Menu option'), 15)
 							
-							Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Sheep text'), 7)
+							Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Sheep text'), 15)
 							
-							if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Sheep image'), 10, FailureHandling.CONTINUE_ON_FAILURE))
+							if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Sheep image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 								{
 									KeywordUtil.markPassed("TestCase - Pass - Sheep image is present!")
 								}
@@ -241,12 +241,10 @@ for (i = 1; i <= maxRowCount; i++) {
 					
 						//Verify the text - Captain James cook
 						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 7)
-						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Famous Yorkshire folk Menu option'),
-							7)
-						Mobile.tap(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Captain James Cook text'), 7)
+						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Famous Yorkshire folk Menu option'), 10)
+						Mobile.tap(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Captain James Cook text'), 10)
 						
-						def txtCaptJamesCookText_Actual = Mobile.getText(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Captain James Description'),
-							5)
+						def txtCaptJamesCookText_Actual = Mobile.getText(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Captain James Description'), 10)
 						def txtCaptJamesCookText_Expected = findTestData('TestBed_MaxApp_ExpectedResults').getValue('TestCaseValue', i).trim()
 						
 						println txtCaptJamesCookText_Actual
@@ -265,12 +263,10 @@ for (i = 1; i <= maxRowCount; i++) {
 						
 						//Verify the text - Michael Palin
 						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 7)
-						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Famous Yorkshire folk Menu option'),
-							7)
-						Mobile.tap(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Michael Palin text'), 7)
+						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Famous Yorkshire folk Menu option'), 7)
+						Mobile.tap(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Michael Palin text'), 10)
 						
-						def txtMichaelPalinText_Actual = Mobile.getText(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Sir Michael Edward Palin Description'),
-							7)
+						def txtMichaelPalinText_Actual = Mobile.getText(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Sir Michael Edward Palin Description'), 10)
 						def txtMichaelPalinText_Expected = findTestData('TestBed_MaxApp_ExpectedResults').getValue('TestCaseValue', i).trim()
 						
 						println txtMichaelPalinText_Actual
@@ -290,12 +286,10 @@ for (i = 1; i <= maxRowCount; i++) {
 							
 							//Verify the text - Guy Fawkes
 							Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 7)
-							Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Famous Yorkshire folk Menu option'),
-								7)
-							Mobile.tap(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Guy Fawkes text'), 7)
+							Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Famous Yorkshire folk Menu option'), 7)
+							Mobile.tap(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Guy Fawkes text'), 10)
 							
-							def txtGuyFawkesText_Actual = Mobile.getText(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Guy Fawkes Description'),
-								7)
+							def txtGuyFawkesText_Actual = Mobile.getText(findTestObject('TestBed_MaxApp_FamousYorkshirePeople_Page/android.widget.TextView0 - Guy Fawkes Description'), 10)
 							def txtGuyFawkesText_Expected = findTestData('TestBed_MaxApp_ExpectedResults').getValue('TestCaseValue', i).trim()
 							
 							
@@ -328,7 +322,7 @@ for (i = 1; i <= maxRowCount; i++) {
 						
 						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Content Size Test Menu Option'), 15)
 						
-						def txtContentText = Mobile.getText(findTestObject('TestBed_MaxApp_ContextText_Page/android.widget.TextView() - Content Test Text'), 10, FailureHandling.CONTINUE_ON_FAILURE).trim()
+						def txtContentText = Mobile.getText(findTestObject('TestBed_MaxApp_ContextText_Page/android.widget.TextView() - Content Test Text'), 15, FailureHandling.CONTINUE_ON_FAILURE).trim()
 						println txtContentText
 						
 						def txtSize = txtContentText.length()
@@ -354,7 +348,128 @@ for (i = 1; i <= maxRowCount; i++) {
 				}
 				
 			break;
+			
+			
+			case ("WEBTEST") :
+			
+			if (txtTestCaseKey == "NATIVE TEST WHITE LISTED IMAGE"){
 				
+					//White Listed image
+					Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 5)
+					
+					Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Web Test Menu Option'), 15)
+					
+					Mobile.tap(findTestObject('TestBed_MaxApp_WebTestPage/android.widget.TextView0 - Native test - White listed image'), 15)
+					
+					if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.Image0 - 1 staithes Native Test White Listed Image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+						{
+							KeywordUtil.markPassed("TestCase - Pass - Native Test White Listed Image is present!")
+						}
+					else
+						{
+							KeywordUtil.markFailed("TestCase - Fail - Native Test White Listed Image is Not present!")
+						}
+					
+					}
+						
+			
+				else if (txtTestCaseKey == "NATIVE TEST NOT WHITE LISTED IMAGE"){
+						
+						//Not White Listed image
+						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 7)
+						
+						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Web Test Menu Option'), 15)
+						
+						Mobile.tap(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - Native test - Not white listed image'), 15)
+						
+						if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - 2 Webpage not available'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+							{
+								def txtErrorWebPageUnavailable = Mobile.getText(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - 2 The webpage at httpsi.ytimg.com'), 15, FailureHandling.STOP_ON_FAILURE)
+								if (txtErrorWebPageUnavailable.contains('The webpage at https://i.ytimg.com/vi/ItRUSNO_Hh4'))
+								{
+									KeywordUtil.markPassed("TestCase - Pass - Not White Listed Image is Not displayed!")
+								}
+								
+								KeywordUtil.markPassed("TestCase - Pass - Not White Listed Image is Not displayed!")
+							}
+						else
+							{
+								KeywordUtil.markFailed("TestCase - Fail - Not White Listed Image is displayed!")
+							}
+						
+						
+					}
+				else if (txtTestCaseKey == "NATIVE TEST VIDEO"){
+						
+						//Video test
+						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 7)
+						
+						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Web Test Menu Option'), 15)
+						
+						Mobile.tap(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - Native test - Video'), 15)
+						
+						if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - video - 3'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+							{
+								KeywordUtil.markPassed("TestCase - Pass - Native Video is present!")
+							}
+						else
+							{
+								KeywordUtil.markFailed("TestCase - Fail - Native Video is Not present!")
+							}
+					}
+				
+				else if (txtTestCaseKey == "DIRECT TEST NOT WHITE LISTED IMAGE"){
+					
+					//Direct test Not White Listed Image
+					Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 7)
+					
+					Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Web Test Menu Option'), 15)
+					
+					Mobile.tap(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - Direct test - Not white listed image'), 15)
+					
+					if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - 4 Welcome to Chrome'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+						{
+							KeywordUtil.markPassed("TestCase - Pass - Direct Test Not White Listed Image is Not present!")
+							Mobile.pressBack(FailureHandling.STOP_ON_FAILURE)
+						}
+					else
+						{
+							KeywordUtil.markFailed("TestCase - Fail - Direct Test Not White Listed Image is present!")
+							Mobile.pressBack(FailureHandling.STOP_ON_FAILURE)
+						}
+				}
+				
+				
+				else if (txtTestCaseKey == "EXTERNAL TEST NOT WHITE LISTED IMAGE"){
+					
+					//External test Not White Listed Image
+					Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 7)
+					
+					Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Web Test Menu Option'), 15)
+					
+					Mobile.tap(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - External test - Not white listed image'), 15)
+					
+					if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - 5 Direct Test Not White Listed Image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+						{
+							KeywordUtil.markPassed("TestCase - Pass - External test - Not white listed Image is Not present!")
+							Mobile.pressBack(FailureHandling.STOP_ON_FAILURE)
+						}
+					else
+						{
+							KeywordUtil.markFailed("TestCase - Fail - External test - Not white listed is present!")
+							Mobile.pressBack(FailureHandling.STOP_ON_FAILURE)
+						}
+				}
+				
+							
+			else
+			{
+				//no match
+				KeywordUtil.markFailed("TestCase - Fail - no Joke matched!")
+				println "TestCase - Fail - no Joke matched!"
+			}
+			
+		break;
 			
 				default:
 					println 'Test Case - Fail - No Execution - Test Case Type - not matching!'
