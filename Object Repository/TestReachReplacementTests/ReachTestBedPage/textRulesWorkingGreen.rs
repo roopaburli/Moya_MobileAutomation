@@ -7,16 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(text(),'Rules are working on this domain')]</value>
+         <value>//span[contains(text(),'Rules are working well on this domain')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(text(),'Rules are working on this domain')]</value>
+      <value>//span[contains(text(),'Rules are working well on this domain')]</value>
    </webElementProperties>
 </WebElementEntity>

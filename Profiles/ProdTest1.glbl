@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>ProdTest1</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Prod</description>
+      <initValue>'http://reach1.sbox.datafree.co/reach1/index.php'</initValue>
+      <name>txtReachPlacementUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prod</description>
+      <initValue>'dev1.bi.nu'</initValue>
+      <name>header1Text1_Expected</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prod</description>
+      <initValue>'=> reach1.sbox.datafree.co'</initValue>
+      <name>header1Text2_Expected</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prod</description>
+      <initValue>'img-src static.bi.nu'</initValue>
+      <name>header2Text1_Expected</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prod</description>
+      <initValue>'=> img-src static-bi-nu-reach1.sbox.datafree.co'</initValue>
+      <name>header2Text2_Expected</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prod</description>
+      <initValue>'http://www.youtube.com'</initValue>
+      <name>header3Text1_Expected</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Prod</description>
+      <initValue>'=> http://www-youtube-com-reach1.sbox.datafree.co'</initValue>
+      <name>header3Text2_Expected</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

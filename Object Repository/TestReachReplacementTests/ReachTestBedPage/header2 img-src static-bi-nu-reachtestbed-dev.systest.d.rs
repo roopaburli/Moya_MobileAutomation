@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(text(),'=> img-src static-bi-nu-reachtestbed-dev.systest.d')]</value>
+         <value>//span[(contains(text(),'=> img-src static-bi-nu-reach')) and (contains(text(),'datafre'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(text(),'=> img-src static-bi-nu-reachtestbed-dev.systest.d')]</value>
+      <value>//span[(contains(text(),'=> img-src static-bi-nu-reach')) and (contains(text(),'datafre'))]</value>
    </webElementProperties>
 </WebElementEntity>

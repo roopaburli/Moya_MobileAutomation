@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(text(),'=> http://www-youtube-com-reachtestbed-dev.systest')]</value>
+         <value>//span[(contains(text(),'=> http://www-youtube-com-reach')) and (contains(text(), 'dataf'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(text(),'=> http://www-youtube-com-reachtestbed-dev.systest')]</value>
+      <value>//span[(contains(text(),'=> http://www-youtube-com-reach')) and (contains(text(), 'dataf'))]</value>
    </webElementProperties>
 </WebElementEntity>

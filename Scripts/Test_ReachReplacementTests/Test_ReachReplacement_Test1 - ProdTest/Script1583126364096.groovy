@@ -131,25 +131,25 @@ else
 if (WebUI.verifyElementPresent(findTestObject('TestReachReplacementTests/ReachTestBedPage/header1AccessControlAllowOrigin'), 10) == true)
 {
 	
-	if (WebUI.verifyElementPresent(findTestObject('TestReachReplacementTests/ReachTestBedPage/header1dave.masters.dev0.binu.netText'), 10) == true)
+	if (WebUI.verifyElementPresent(findTestObject('TestReachReplacementTests/ReachTestBedPage/header1dave.masters.dev1.bi.nuText'), 10) == true)
 		{
-			def header1Text1 = WebUI.getText(findTestObject('TestReachReplacementTests/ReachTestBedPage/header1dave.masters.dev0.binu.netText')).trim()
-			def header1Text2 = WebUI.getText(findTestObject('TestReachReplacementTests/ReachTestBedPage/header1_reachtestbed-dev.systest.datafree.co')).trim()
+			def header1Text1 = WebUI.getText(findTestObject('TestReachReplacementTests/ReachTestBedPage/header1dave.masters.dev1.bi.nuText')).trim()
+			def header1Text2 = WebUI.getText(findTestObject('TestReachReplacementTests/ReachTestBedPage/header1_reach1-dev.systest.datafree.coText')).trim()
 			
-			if ((header1Text1 == 'dave.masters.dev0.binu.net') && (header1Text2 == '=> reachtestbed.datafree.co'))
+			if ((header1Text1 == GlobalVariable.header1Text1_Expected) && (header1Text2 == GlobalVariable.header1Text2_Expected))
 			{
-				KeywordUtil.markPassed("TestCase_Access-Control-Allow-Origin is set to dave.masters.dev0.binu.net => reachtestbed.datafree.co check - Test Passed")
+				KeywordUtil.markPassed("TestCase_Access-Control-Allow-Origin is set to dev1.bi.nu => reach1-dev.systest.datafree.co - Test Passed")
 			}
 		}
 	else
 		{
-			KeywordUtil.markFailed("TestCase_Access-Control-Allow-Origin is set to dave.masters.dev0.binu.net => reachtestbed.datafree.co check - Test Failed")
+			KeywordUtil.markFailed("TestCase_Access-Control-Allow-Origin is Not set to dev1.bi.nu => reach1-dev.systest.datafree.co - Test Failed")
 			
 		}
 }
 else
 {
-	KeywordUtil.markFailed("TestCase_Header Access-Control-Allow-Origin dave.masters.dev0.binu.net is not Present- Test Failed")
+	KeywordUtil.markFailed("TestCase_Header AccessControlAllowOrigin is not Present- Test Failed")
 	
 }
 
@@ -163,7 +163,7 @@ if (WebUI.verifyElementPresent(findTestObject('TestReachReplacementTests/ReachTe
 			def header2Text1 = WebUI.getText(findTestObject('TestReachReplacementTests/ReachTestBedPage/header2img-src static.bi.nu')).trim()
 			def header2Text2 = WebUI.getText(findTestObject('TestReachReplacementTests/ReachTestBedPage/header2 img-src static-bi-nu-reachtestbed-dev.systest.d')).trim()
 			
-			if ((header2Text1 == 'img-src static.bi.nu') && (header2Text2 == '=> img-src static-bi-nu-reachtestbed.datafree.co'))
+			if ((header2Text1 == GlobalVariable.header2Text1_Expected) && (header2Text2 == GlobalVariable.header2Text2_Expected))
 			{
 				KeywordUtil.markPassed("TestCase_Access-Control-Allow-Origin is set to img-src static.bi.nu => img-src static-bi-nu-reachtestbed-dev.systest.datafree.co check - Test Passed")
 			}
@@ -190,7 +190,7 @@ if (WebUI.verifyElementPresent(findTestObject('TestReachReplacementTests/ReachTe
 			def header3Text1 = WebUI.getText(findTestObject('TestReachReplacementTests/ReachTestBedPage/header3httpwww.youtube.com')).trim()
 			def header3Text2 = WebUI.getText(findTestObject('TestReachReplacementTests/ReachTestBedPage/header3httpwww-youtube-com-reachtestbed-dev.systest')).trim()
 			
-			if ((header3Text1 == 'http://www.youtube.com') && (header3Text2 == '=> http://www-youtube-com-reachtestbed.datafree.co'))
+			if ((header3Text1 == GlobalVariable.header3Text1_Expected) && (header3Text2 == GlobalVariable.header3Text2_Expected))
 			{
 				KeywordUtil.markPassed("TestCase_Link is set to http://www.youtube.com => http://www-youtube-com-reachtestbed-dev.systest.datafree.co check - Test Passed")
 			}

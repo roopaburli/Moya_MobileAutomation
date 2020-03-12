@@ -22,6 +22,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'http://reachtestbed-dev.systest.datafree.co/testbed/index.php'</initValue>
+      <name>Old_txtReachPlacementUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://reach1-dev.systest.datafree.co/reach1/index.php'</initValue>
       <name>txtReachPlacementUrl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

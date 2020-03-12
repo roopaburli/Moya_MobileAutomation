@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>header1_reachtestbed-dev.systest.datafree.co</name>
+   <name>header1dave.masters.dev1.bi.nuText</name>
    <tag></tag>
-   <elementGuidId>5c1c9094-e6d9-4d2c-bdb9-c9995150712b</elementGuidId>
+   <elementGuidId>a79221dd-e7d8-469e-bd57-dc8010492e23</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(text(),'=> reachtestbed-dev.systest.datafree.co')]</value>
+         <value>//span[contains(text(),'dev1.bi.nu')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(text(),'=> reachtestbed-dev.systest.datafree.co')]</value>
+      <value>//span[contains(text(),'dev1.bi.nu')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,3 +1,4 @@
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -65,7 +66,7 @@ for (i = 1; i <= maxRowCount; i++) {
 					if (txtTestCaseKey == "DOG STATUE"){
 						
 							//Dog statue joke
-							Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 5)
+							Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 10)
 							
 							Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Yorkshire jokes Menu option'), 15)
 							println 'dog joke tapped'
@@ -100,11 +101,11 @@ for (i = 1; i <= maxRowCount; i++) {
 					
 						else if (txtTestCaseKey == "TOM CAT"){
 						
-								Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 7)
+								Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.ImageButton0 - Hamburger icon'), 10)
 								
-								Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Yorkshire jokes Menu option'), 7)
+								Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Yorkshire jokes Menu option'), 15)
 								
-								Mobile.tap(findTestObject('TestBed_MaxApp_YorkshireJokesPage/android.widget.TextView0 - Tom cat text'), 7)
+								Mobile.tap(findTestObject('TestBed_MaxApp_YorkshireJokesPage/android.widget.TextView0 - Tom cat text'), 10)
 								
 								Mobile.tap(findTestObject('TestBed_MaxApp_YorkshireJokesPage/android.widget.ImageView0 - TomCatJokeImage'), 7)
 								
@@ -141,7 +142,7 @@ for (i = 1; i <= maxRowCount; i++) {
 							
 								def txtTombStoneText_Expected = findTestData('TestBed_MaxApp_ExpectedResults').getValue('TestCaseValue', i).trim()
 								
-								if 	(txtTombStoneText_Actual.contains('txtTombStoneText_Expected'))
+								if 	(txtTombStoneText_Actual.contains(txtTombStoneText_Expected))
 										{
 											KeywordUtil.markPassed("TestCase - Pass - Tombstone text - matching!")	
 											println "TestCase - Pass - Tombstone text - matching!"
@@ -162,6 +163,7 @@ for (i = 1; i <= maxRowCount; i++) {
 					
 				break;
 				
+				
 				case ("PICTURE") :
 				
 				if (txtTestCaseKey == "BURNSALL"){
@@ -171,9 +173,9 @@ for (i = 1; i <= maxRowCount; i++) {
 						
 						Mobile.tap(findTestObject('TestBed_MaxApp_Home_Page/android.widget.CheckedTextView0 - Yorkshire pictures Menu option'), 15)
 						
-						Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Burnsall text'), 15)
+						Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Burnsall text'), 20)
 						
-						if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Burnsall image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+						if (Mobile.verifyElementExist(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Burnsall image'), 20, FailureHandling.CONTINUE_ON_FAILURE))
 							{
 								KeywordUtil.markPassed("TestCase - Pass - Burnsall image is present!")
 							}
@@ -194,7 +196,7 @@ for (i = 1; i <= maxRowCount; i++) {
 							
 							Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Staithes text'), 15)
 							
-							if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Staithes image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+							if (Mobile.verifyElementExist(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Staithes image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 								{
 									KeywordUtil.markPassed("TestCase - Pass - Staithes image is present!")
 								}
@@ -214,7 +216,7 @@ for (i = 1; i <= maxRowCount; i++) {
 							
 							Mobile.tap(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.TextView0 - Sheep text'), 15)
 							
-							if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Sheep image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+							if (Mobile.verifyElementExist(findTestObject('TestBed_MaxApp_Yorkshire_PicturesPage/android.widget.ImageView0 - Sheep image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 								{
 									KeywordUtil.markPassed("TestCase - Pass - Sheep image is present!")
 								}
@@ -361,7 +363,7 @@ for (i = 1; i <= maxRowCount; i++) {
 					
 					Mobile.tap(findTestObject('TestBed_MaxApp_WebTestPage/android.widget.TextView0 - Native test - White listed image'), 15)
 					
-					if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.Image0 - 1 staithes Native Test White Listed Image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+					if (Mobile.verifyElementExist(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.Image0 - 1 staithes Native Test White Listed Image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 						{
 							KeywordUtil.markPassed("TestCase - Pass - Native Test White Listed Image is present!")
 						}
@@ -382,7 +384,7 @@ for (i = 1; i <= maxRowCount; i++) {
 						
 						Mobile.tap(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - Native test - Not white listed image'), 15)
 						
-						if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - 2 Webpage not available'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+						if (Mobile.verifyElementExist(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - 2 Webpage not available'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 							{
 								def txtErrorWebPageUnavailable = Mobile.getText(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - 2 The webpage at httpsi.ytimg.com'), 15, FailureHandling.STOP_ON_FAILURE)
 								if (txtErrorWebPageUnavailable.contains('The webpage at https://i.ytimg.com/vi/ItRUSNO_Hh4'))
@@ -408,7 +410,7 @@ for (i = 1; i <= maxRowCount; i++) {
 						
 						Mobile.tap(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - Native test - Video'), 15)
 						
-						if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - video - 3'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+						if (Mobile.verifyElementExist(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - video - 3'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 							{
 								KeywordUtil.markPassed("TestCase - Pass - Native Video is present!")
 							}
@@ -427,7 +429,7 @@ for (i = 1; i <= maxRowCount; i++) {
 					
 					Mobile.tap(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - Direct test - Not white listed image'), 15)
 					
-					if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - 4 Welcome to Chrome'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+					if (Mobile.verifyElementExist(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - Direct Not White Listed Image Expected'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 						{
 							KeywordUtil.markPassed("TestCase - Pass - Direct Test Not White Listed Image is Not present!")
 							Mobile.pressBack(FailureHandling.STOP_ON_FAILURE)
@@ -449,7 +451,7 @@ for (i = 1; i <= maxRowCount; i++) {
 					
 					Mobile.tap(findTestObject('TestBed_MaxApp_WebTest_Page/android.widget.TextView0 - External test - Not white listed image'), 15)
 					
-					if (WebUI.verifyElementPresent(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - 5 Direct Test Not White Listed Image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
+					if (Mobile.verifyElementExist(findTestObject('TestBed_MaxApp_WebTest_Page/android.view.View0 - 5 Direct Test Not White Listed Image'), 15, FailureHandling.CONTINUE_ON_FAILURE))
 						{
 							KeywordUtil.markPassed("TestCase - Pass - External test - Not white listed Image is Not present!")
 							Mobile.pressBack(FailureHandling.STOP_ON_FAILURE)
@@ -476,10 +478,11 @@ for (i = 1; i <= maxRowCount; i++) {
 				break;
 				
 		}
-					
+		
+			
 	}		
 			
-            
+Mobile.closeApplication()
         
     
 
