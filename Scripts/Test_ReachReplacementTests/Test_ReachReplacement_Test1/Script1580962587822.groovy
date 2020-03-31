@@ -28,6 +28,7 @@ WebUI.maximizeWindow()
 * Click Button "Continue"
 * Check rules working with "working on this domain"*/
 
+
 //TestCase 1: Verify Continue button is present
 Assert.assertTrue(WebUI.verifyElementPresent(findTestObject('TestReachReplacementTests/CheckRulesPage/buttonContinue'), 5))
 

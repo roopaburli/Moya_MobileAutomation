@@ -18,8 +18,8 @@ import com.kms.katalon.core.util.KeywordUtil
 //import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import org.testng.Assert
 
-Mobile.startApplication(GlobalVariable.txtAppApkPath, true)
-Mobile.delay(20)
+Mobile.startApplication("C:/Katalon/nu.bi.wrap1-1-1-4.0.0-standard-debug-805.apk", true)
+Mobile.delay(30)
 
 //Mobile.swipe(0, 0, 0, 0, FailureHandling.STOP_ON_FAILURE)
 
